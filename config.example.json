@@ -1,0 +1,9 @@
+{
+    "host": "wss://localhost",
+    "chainId": 5,
+    "keystore": {
+        "path": "./keys",
+        "password": "something super random and definitely 100% secure. SECURITYYYYY"
+    },
+    "moonflipContract": "0x00000000000000000000000000000000000"
+}

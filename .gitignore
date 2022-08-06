@@ -1,0 +1,11 @@
+*.exe
+config.json
+*.png 
+package-lock.json
+moonflip
+!contracts/moonflip
+node_modules/
+abi/
+keys/
+*.db
+.env

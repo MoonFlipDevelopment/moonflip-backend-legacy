@@ -1,0 +1,16 @@
+{
+  "name": "moonflip",
+  "version": "1.0.0",
+  "description": "Solidity Code for MoonFlip",
+  "main": "index.js",
+  "scripts": {
+    "compile_go": "go build",
+    "generate_moonflip_abi": "npx solc --abi contracts/moonflip/MoonFlip.sol --base-path=. --include-path \"./node_modules/\" -o abi/ -p",
+    "generate_go": "abigen --pkg moonflip --out=./contracts/moonflip/moonflip.go --abi ./abi/contracts_moonflip_MoonFlip_sol_MoonFlip.abi"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0"
+  }
+}
